@@ -9,15 +9,18 @@
 	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=Work+Sans&display=swap" rel="stylesheet">
 	<meta name="description" content="">
 	<link rel="stylesheet" href="./assets/style.css">
+	<link rel="icon" type="image/x-icon" href="./assets/icons/favicon.ico">
+	<script src="https://kit.fontawesome.com/1bb0677a28.js" crossorigin="anonymous"></script>
+	<script type="module" src="script.js"></script>
 </head>
 <body>
 <header>
 	<h1>Sophie Bluel <span>Architecte d'intérieur</span></h1>
-	<nav>
+	<nav> 
 		<ul>
-			<li>projets</li>
-			<li>contact</li>
-			<li>login</li>
+			<li><a class="active" href="#">projets</a></li>
+				<li><a href="#contact">contact</a> </li>
+				<li><a href="login.html">login</a></li>
 			<li><img src="./assets/icons/instagram.png" alt="Instagram"></li>
 		</ul>
 	</nav>
@@ -36,6 +39,12 @@
 	</section>
 	<section id="portfolio">
 		<h2>Mes Projets</h2>
+		<div class="filters-container">
+			<button class="btn-filter-selected">Tous</button>
+			<button class>Objets</button>
+			<button class>Appartements</button>
+			<button class>Hotels & restaurants</button>
+			</div>
 		<div class="gallery">
 			<figure>
 				<img src="assets/images/abajour-tahina.png" alt="Abajour Tahina">
