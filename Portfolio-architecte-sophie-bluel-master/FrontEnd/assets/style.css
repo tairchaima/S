@@ -479,7 +479,7 @@ button.btn-filter-selected {
   width: 21px;
   height: 21px;
   margin: 26px 0 0 30px;
-  background-image: url(../icons/back-arrow.svg);
+  background-image: url(./icons/back-arrow.svg);
 }
 .modal__previous-btn:hover {
   cursor: pointer;
@@ -578,7 +578,7 @@ button.btn-filter-selected {
   width: 17px;
   height: 17px;
   background-size: 100%;
-  background-image: url(../icons/move.svg);
+  background-image: url(./icons/move.svg);
   transition: all 0.1s;
 }
 .modal__content__move-btn:hover {
@@ -595,7 +595,7 @@ button.btn-filter-selected {
   right: 5px;
   width: 17px;
   height: 17px;
-  background-image: url(../icons/trash.svg);
+  background-image: url(./icons/trash.svg);
 }
 .modal__content__trash-btn:hover {
   cursor: pointer;
@@ -697,7 +697,7 @@ button.btn-filter-selected {
   position: relative;
 }
 .modal__form__select-container::after {
-  content: url("../icons/select-arrow.svg");
+  content: url("./icons/select-arrow.svg");
   pointer-events: none;
   display: inline-block;
   position: absolute;
